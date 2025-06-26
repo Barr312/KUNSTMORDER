@@ -226,6 +226,7 @@ video{
         overflow: hidden;
         z-index: -1;
         object-fit: cover;
+        display: block;
 
     }
     
