@@ -217,6 +217,20 @@ video{
     }
 }
 
+@media(max-width: 600px){
+    video{
+        position: fixed;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        overflow: hidden;
+        z-index: -1;
+        object-fit: cover;
+
+    }
+    
+}
+
 /*@media(min-width: 600px){
     body{
         flex-wrap: wrap;
